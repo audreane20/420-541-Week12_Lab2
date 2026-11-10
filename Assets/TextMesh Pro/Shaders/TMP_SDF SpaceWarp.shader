@@ -127,7 +127,7 @@ SubShader {
 		#include "UnityCG.cginc"
 		#include "UnityUI.cginc"
 		#include "TMPro_Properties.cginc"
-		#include "TMPro.cginc"
+		#include "../Resources/Shaders/TMPro.cginc"
 
 		struct vertex_t
 		{
@@ -341,7 +341,7 @@ SubShader {
 		#include "UnityCG.cginc"
 		#include "UnityUI.cginc"
 		#include "TMPro_Properties.cginc"
-		#include "TMPro.cginc"
+		#include "../Resources/Shaders/TMPro.cginc"
 
 		float4x4 unity_MatrixPreviousM;
 		#define UNITY_MATRIX_M     unity_ObjectToWorld

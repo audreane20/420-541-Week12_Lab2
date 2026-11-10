@@ -24,8 +24,7 @@ namespace KartGame.KartSystems
             if (other.tag == "Player")
             {
 
-                // UNCOMMENT THIS
-                /*gameObject.SetActive(false);
+                gameObject.SetActive(false);
                 Invoke("Reset",3.0f);
                
                  
@@ -34,9 +33,8 @@ namespace KartGame.KartSystems
                 if (ak != null)
                 {
                     ak.AddPowerup(powerup);
-                }*/
+                }
 
-                // UNCOMMENT THIS 
             }
        
         }
